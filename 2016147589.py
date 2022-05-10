@@ -16,5 +16,3 @@ if __name__ == '__main__':
     dimension = 0
 
     count = 1
-
-    while()
