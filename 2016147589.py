@@ -5,7 +5,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-percentage = 0.80
+percentage = 0.90
 
 if __name__ == '__main__':
     test_dir = './faces_training'
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     facematrix = np.array(facematrix)
 
     #perform svd
-    U, s, V = np.linalg.svd(facematrix)
+    U, s, V = np.linalg.svd(facematrix, full_matrices=False)
 
     #compute variance
     variance = np.round(s/np.sum(s), decimals = 3)
