@@ -1,5 +1,5 @@
 ############# STEP1 #############
-Input Percentage: 0.8
-Selected Dimension: 12
+Input Percentage: 0.95
+Selected Dimension: 27
 
 ############# STEP2 #############
